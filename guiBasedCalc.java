@@ -292,7 +292,7 @@ public class guiBasedCalc implements ActionListener{
 			jl1.setText(str1);
 			jf.setText("");
 		}
-		if(ae.getSource()==jb4) { //Percentage
+		if(ae.getSource()==jb4) { //Modulus
 			str2=jf.getText();
 			var1=Float.parseFloat(str2);
 			str1=str2+"%";
